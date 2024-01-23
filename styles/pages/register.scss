@@ -1,0 +1,88 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: auto;
+  max-width: 716px;
+  padding: 40px;
+  color: $color_red;
+  border: 1px solid $color_gray_3;
+  color: $color_red;
+  border-radius: 36px;
+  .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 636px;
+    justify-content: center;
+    .ant-input {
+      border-radius: 16px;
+      height: 52px;
+    }
+    .ant-input-password {
+      border-radius: 16px;
+      height: 52px;
+      .ant-input {
+        height: auto;
+      }
+    }
+    .register-register {
+      background-color: $color_dark;
+      color: $color_white;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+
+  .ant-btn {
+    border-radius: 16px;
+    height: 52px;
+  }
+  .resgiter-google {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    font-weight: 700;
+  }
+  .register-change {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .register-change a {
+    font-weight: 700;
+  }
+}
+.register p {
+  font-size: 16px;
+  color: $color_gray_2;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: $breakpoint_tablet_max) {
+  .register {
+    padding: 14px;
+    gap: 10px;
+    .form {
+      width: 100%;
+    }
+    .title {
+      font-size: 24px;
+    }
+  }
+  .publiclayout {
+    background-image: none !important;
+  }
+}

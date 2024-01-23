@@ -1,0 +1,58 @@
+.service-page {
+  background: $color_white;
+  border-radius: 36px;
+  padding: 24px;
+  &__header {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .input-search {
+    width: 264px;
+    margin-left: 10px;
+  }
+  .menu-view {
+    cursor: pointer;
+  }
+  .btn-buy {
+    height: 36px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color_dark;
+    border: 1px solid $color_dark;
+    font-weight: 700;
+    width: 86px;
+  }
+  .btn-action {
+    display: flex;
+    img {
+      cursor: pointer;
+      margin-right: 20px;
+    }
+  }
+  .text-dark {
+    font-size: 16px;
+    font-weight: 600;
+    color: $color_bank;
+  }
+
+  .icon-heart {
+    cursor: pointer;
+  }
+}
+.ant-table-cell {
+  color: $color_bank;
+  font-weight: 600;
+  &::before {
+    display: none;
+  }
+}
+
+.ant-table-cell:first-child {
+  border-radius: 20px 0 0 20px !important;
+}
+
+.ant-table-cell:last-child {
+  border-radius: 0 20px 20px 0 !important;
+}

@@ -1,0 +1,52 @@
+.contact {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  .contact-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .contact-menu button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid $color_blue_dark_3;
+    background: $color_blue_dark_3;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    img {
+      width: 40px;
+    }
+  }
+
+  .contact-menu.visible {
+    visibility: visible;
+  }
+}
+
+@media (max-width: $breakpoint_tablet_max) {
+  .contact {
+    .contact-menu button {
+      height: 50px;
+      width: 50px;
+    }
+  }
+}

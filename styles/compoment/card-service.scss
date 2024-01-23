@@ -1,0 +1,81 @@
+.card-service {
+  border: 1px solid $color_moi;
+  border-radius: 32px;
+  padding: 14px;
+  background: $color_white;
+
+  cursor: pointer;
+  &:hover {
+    border: 1px solid $color_dark;
+  }
+  &__logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  &__name {
+    color: $color_emeo;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  &__desc {
+    color: $color_bank;
+    font-size: 16px;
+    padding: 10px 0 10px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-weight: 400;
+    margin-bottom: 10px;
+    height: 86px;
+    line-height: 150%;
+    margin-top: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__price {
+    background: $color_otto;
+    color: $color_red_1;
+    padding: 8px 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+  .btn-buy {
+    height: 36px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color_dark;
+    border: 1px solid $color_dark;
+    font-weight: 700;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    img {
+      cursor: pointer;
+    }
+  }
+  .icon-shopping {
+    margin: 0 10px;
+  }
+}

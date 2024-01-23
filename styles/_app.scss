@@ -1,0 +1,35 @@
+@import "normalize";
+
+@import "variables";
+@import "common";
+@import "fonts";
+
+// custom
+@import "./custom/main";
+
+// global
+@import "./mixins";
+
+//page
+@import "./compoment/footer.scss";
+@import "./pages/payment.scss";
+@import "./pages/affiliate.scss";
+@import "./pages/login.scss";
+@import "./pages/register.scss";
+@import "./pages/forgot-password.scss";
+@import "./pages/publiclayout.scss";
+@import "./pages/faq.scss";
+
+@import "./page/home.scss";
+@import "./page/service.scss";
+@import "./page/profile.scss";
+@import "./page/contact.scss";
+
+//compoment
+
+@import "./compoment/layout.scss";
+@import "./compoment/card-service.scss";
+@import "./compoment/pages/header.scss";
+@import "./compoment/pages/social.scss";
+@import "./compoment/pages/footter.scss";
+@import "./compoment/pages/landing.scss";

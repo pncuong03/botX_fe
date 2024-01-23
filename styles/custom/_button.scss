@@ -1,0 +1,130 @@
+// default
+$color_default_button_background: red;
+$color_default_button: black;
+$color_default_button_border: white;
+
+// link
+$color_link_button_background: red;
+$color_link_button: black;
+$color_link_button_border: white;
+
+// primary
+$color_primary_button_background: #3d8aff;
+$color_primary_button: black;
+$color_primary_button_border: white;
+
+// secondary
+$color_secondary_button_background: red;
+$color_secondary_button: black;
+$color_secondary_button_border: white;
+
+.ant-btn:hover {
+  opacity: 0.8;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $color_default_button_border;
+  border-radius: 10px;
+
+  &:focus,
+  &:active,
+  &:hover {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  &:disabled {
+    border: none;
+  }
+
+  &--default {
+    background-color: $color_default_button_background;
+    color: $color_default_button;
+    border: 1px solid $color_default_button_border;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: $color_default_button;
+      background-color: $color_default_button_background;
+      border: 1px solid $color_default_button_border;
+    }
+
+    &:disabled {
+      border: none;
+      color: $color_default_button;
+    }
+  }
+
+  &--link {
+    background-color: $color_link_button_background;
+    color: $color_link_button;
+    border: 1px solid $color_link_button_border;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: $color_link_button;
+      background-color: $color_link_button_background;
+      border: 1px solid $color_link_button_border;
+    }
+
+    &:disabled {
+      border: none;
+      color: $color_link_button;
+    }
+  }
+
+  &--primary {
+    background-color: $color_primary_button_background;
+    color: $color_link_button_border;
+    border: 1px solid $color_primary_button_border;
+    padding: 10px 14px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    &:focus,
+    &:active,
+    &:hover {
+      background-color: $color_primary_button_background;
+      color: $color_primary_button_border;
+      border: 1px solid $color_primary_button_border;
+    }
+
+    &:disabled {
+      border: none;
+      color: $color_primary_button;
+    }
+  }
+
+  &--secondary {
+    background-color: $color_secondary_button_background;
+    color: $color_secondary_button;
+    border: 1px solid $color_secondary_button_border;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: $color_secondary_button;
+      background-color: $color_secondary_button_background;
+      border: 1px solid $color_secondary_button_border;
+    }
+
+    &:disabled {
+      border: none;
+      color: $color_secondary_button;
+    }
+  }
+}
