@@ -7,7 +7,7 @@ const Join: React.FC = () => {
       <div className="sociall">
         <div className="join">
           <div className="pf">HOPE THAT IS ENOUGH!</div>
-          <div className="ps">Join XSpeeder.shop</div>
+          <div className="ps">Join XFarm.shop</div>
           <div className="pt">Subscrible to update news about us.</div>
           <Link href={APP_URL.REGISTER}>
             <a className="join-button">Join us now</a>

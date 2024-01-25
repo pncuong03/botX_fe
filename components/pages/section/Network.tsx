@@ -11,7 +11,7 @@ const Network: React.FC = () => {
               #1 social network services cheapest assembly on the market
             </div>
             <div className="ps">
-              XSpeeder.shop is a website providing social networking services
+              XFarm.shop is a website providing social networking services
               and SEO services cheapest. The interface is extremely customer and
               reseller friendly where everyone can easily use the service to
               reach more customers on social networks. Our website helps users

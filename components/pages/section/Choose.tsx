@@ -7,8 +7,8 @@ const Choose: React.FC = () => {
         <div className="choose">
           <div className="choosee">
             <div className="choosefi">
-              <p className="shop">XSpeeder.shop</p>
-              <p className="why">Why choose XSpeeder.shop as a Best SMM reseller panel?</p>
+              <p className="shop">XFarm.shop</p>
+              <p className="why">Why choose XFarm.shop as a Best SMM reseller panel?</p>
             </div>
           </div>
           <div className="choosese">
@@ -16,7 +16,7 @@ const Choose: React.FC = () => {
               <div className="number"> 1</div>
               <div className="psm">Free child panel</div>
               <div className="pbi">
-                XSpeeder.shop offer Free Child Panel like us (different design ) to Elite, VIP or Master Members for
+                XFarm.shop offer Free Child Panel like us (different design ) to Elite, VIP or Master Members for
                 life time.
               </div>
             </div>
@@ -24,7 +24,7 @@ const Choose: React.FC = () => {
               <div className="number"> 2</div>
               <div className="psm">Cheapest price</div>
               <div className="pbi">
-                XSpeeder.shop offer cheapest price services in whole market. We can beat any SMM reseller panel in
+                XFarm.shop offer cheapest price services in whole market. We can beat any SMM reseller panel in
                 market.
               </div>
             </div>

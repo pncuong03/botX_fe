@@ -5,19 +5,19 @@ import { useEffect } from "react";
 import { getToken } from "services/api";
 
 const WrapConponent = ({ children }: any) => {
-  const { getAllCart, getAllNoti, getUserInfo, getCategotirsSerive } =
-    useHomeHook();
-  const accessToken = useAppSelector(selectAccessToken.getToken);
+  // const { getAllCart, getAllNoti, getUserInfo, getCategotirsSerive } =
+  //   useHomeHook();
+  // const accessToken = useAppSelector(selectAccessToken.getToken);
 
-  useEffect(() => {
-    if (accessToken) {
-      getToken(accessToken);
-      getAllCart();
-      getAllNoti();
-      getUserInfo();
-      getCategotirsSerive();
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (accessToken) {
+  //     getToken(accessToken);
+  //     getAllCart();
+  //     getAllNoti();
+  //     getUserInfo();
+  //     getCategotirsSerive();
+  //   }
+  // }, []);
   return <div>{children}</div>;
 };
 

@@ -50,7 +50,7 @@ function PrivateLayout({ children, title }: any) {
     <>
       {accessToken ? (
         <div className="private-layout ">
-          <HeadSEO title="xspeeder.shop" />
+          <HeadSEO title="XFarm.shop" />
           <Row gutter={[20, 20]} className="row-main">
             <Col className="ant-col-left">
               <AppSideBar />

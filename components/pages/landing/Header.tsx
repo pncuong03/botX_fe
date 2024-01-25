@@ -19,7 +19,7 @@ const Header: React.FC = () => {
   return (
     <header id="header" className="header">
       <div className="logo">
-        <img className="img" src="/images/logo.png" alt="" />
+        {/* <img className="img" src="/images/logo.png" alt="" /> */}
       </div>
 
       <div className="content">

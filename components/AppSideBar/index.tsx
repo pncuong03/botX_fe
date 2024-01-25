@@ -75,7 +75,7 @@ const AppSideBar = () => {
         <Link href={APP_URL.DASHBOARD}>
           <div className="title">
             <img src="/svg/logos.svg" alt="" height={60} width={60} />
-            XSpeeder.shop
+            XFarm.shop
           </div>
         </Link>
         <div className="user-info">
