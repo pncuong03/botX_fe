@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
   locales: ['en'],
   i18n: {
@@ -5,4 +6,5 @@ module.exports = {
     locales: ['en','vi'],
   },
   reloadOnPrerender: true,
+  localePath: path.resolve('./public/locales')
 };
