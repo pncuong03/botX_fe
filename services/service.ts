@@ -7,8 +7,8 @@ class ListServices {
   };
 
   getListServiceAll = (params: any) => {
-    return api.get(`/service/category/${params?.categoryId}`, params);
-    // return api.get("/service/all-service", params);
+    // return api.get(`/service/category/${params?.categoryId}`, params);
+    return api.get("/service/all-service", params);
   };
 
   getListServiceFavourite = (params: any) => {

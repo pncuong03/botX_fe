@@ -5,6 +5,7 @@ import { useTranslation } from "next-i18next";
 import { selectUserInfo } from "redux/authentication/selector";
 import { handleCopyInClipboard } from "utils";
 import Link from "next/link";
+
 type Props = {
   isEdit?: boolean;
 };
@@ -28,19 +29,20 @@ const Information = ({ isEdit = false }: Props) => {
     {
       img: "/images/balance.png",
       name: t("home.balance"),
-      value: `$ ${Number(balanceSys).toLocaleString()}`,
+      value: `$ ${Number(balanceSys || 0).toLocaleString()}`,
     },
     {
       img: "/images/order.png",
       name: t("home.orderNumber"),
-      value: `${Number(numberOrder).toLocaleString()}`,
+      value: `${Number(numberOrder || 0).toLocaleString()}`,
     },
     {
       img: "/images/spent.png",
       name: t("home.spent"),
-      value: `$ ${Number(spent).toLocaleString()}`,
+      value: `$ ${Number(spent || 0).toLocaleString()}`,
     },
   ];
+  
 
   return (
     <div className="home">
