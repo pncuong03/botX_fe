@@ -9,38 +9,38 @@ const Faq = () => {
     {
       header: t("home.whatsXs"),
       content: t("home.xsShop"),
-      img: "/images/whatX.png",
+      // img: "/images/whatX.png",
     },
     {
       header: t("home.howPurchase"),
       content: t("home.Topay"),
-      img: "/images/how-buy.png",
+      // img: "/images/how-buy.png",
     },
     {
       header: t("home.whatIs"),
       content: t("home.haveSeen"),
-      img: "/images/wrong.png",
+      // img: "/images/wrong.png",
     },
     {
       header: t("home.howRe"),
-      img: "/images/how-recharge.png",
+      // img: "/images/how-recharge.png",
       content: t("home.toTop"),
     },
 
     {
       header: t("home.iMade"),
       content: t("home.ocfcEnter"),
-      img: "/images/money-x.png",
+      // img: "/images/money-x.png",
     },
     {
       header: t("home.isCancel"),
       content: t("home.weDo"),
-      img: "/images/cancel-order.png",
+      // img: "/images/cancel-order.png",
     },
     {
       header: t("home.warrantly"),
       content: t("home.inCase"),
-      img: "/images/policy.png",
+      // img: "/images/policy.png",
     },
   ];
 
@@ -56,7 +56,7 @@ const Faq = () => {
           key={String(k)}
         >
           <p dangerouslySetInnerHTML={{ __html: data.content }} />
-          <img className="img-faq" src={data?.img} alt="" />
+          {/* <img className="img-faq" src={data?.img} alt="" /> */}
         </Panel>
       ))}
     </Collapse>

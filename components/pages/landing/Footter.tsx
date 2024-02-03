@@ -5,7 +5,7 @@ const Footter: React.FC = () => {
     <div className="footter">
       <div className="logo">
         <div className="img">
-          {/* <img src="/images/logo.png" alt="" /> */}
+          <img src="/images/logo.png" alt="" />
           <div className="text">
             <div>
               <a href="#social-section">Home</a>
@@ -37,7 +37,7 @@ const Footter: React.FC = () => {
           </a>
           <a
             className="zalo"
-            href="https://zalo.me/g/dsugwp477"
+            // href="https://zalo.me/g/dsugwp477"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,7 +50,7 @@ const Footter: React.FC = () => {
           <img src="/images/text.png" alt="" />
         </div>
         <div className="right">
-          {/* <img src="/images/textt.png" alt="" /> */}
+          <img src="/images/textt.png" alt="" />
         </div>
       </div>
     </div>
