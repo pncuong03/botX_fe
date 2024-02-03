@@ -12,7 +12,6 @@ type Props = {
 
 const Information = ({ isEdit = false }: Props) => {
   const user = useAppSelector(selectUserInfo.getUser);
-  console.log(user);
   
   const { t } = useTranslation();
 

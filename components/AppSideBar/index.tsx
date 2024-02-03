@@ -23,7 +23,6 @@ const AppSideBar = () => {
 
   const { username, email, phoneNumber, avatarUrl, balanceSys } = user || {};
 
-  console.log(email);
   
   function getItem(
     label: React.ReactNode,
@@ -41,18 +40,18 @@ const AppSideBar = () => {
     } as MenuItem;
   }
 
-  const itemsMenu = (
-    subMenu: any,
-    title: string,
-    icon: string,
-    urlParent: string
-  ): MenuItem[] => {
-    const items = [];
-    for (let i = 0; i < subMenu.length; i++) {
-      items.push(getItem(t(subMenu[i]?.subName), subMenu[i]?.id));
-    }
-    return [getItem(title, urlParent, <img src={icon} alt={title} />, items)];
-  };
+  // const itemsMenu = (
+  //   subMenu: any,
+  //   title: string,
+  //   icon: string,
+  //   urlParent: string
+  // ): MenuItem[] => {
+  //   const items = [];
+  //   for (let i = 0; i < subMenu.length; i++) {
+  //     items.push(getItem(t(subMenu[i]?.subName), subMenu[i]?.id));
+  //   }
+  //   return [getItem(title, urlParent, <img src={icon} alt={title} />, items)];
+  // };
 
   const onClickSubmenu: MenuProps["onClick"] = (e) => {
     router.push({
@@ -99,7 +98,7 @@ const AppSideBar = () => {
         <div className="menu">
           {getMenuItems(categories)?.map((item: any, k: number) => (
             <>
-              {item?.subMenu ? (
+              {/* {item?.subMenu ? (
                 <Menu
                   style={{ width: 240 }}
                   mode="inline"
@@ -114,7 +113,7 @@ const AppSideBar = () => {
                   onOpenChange={onOpenChange}
                   defaultSelectedKeys={[router.asPath]}
                 />
-              ) : (
+              ) : ( */}
                 <Link href={item?.url} key={k}>
                   <div
                     key={k}
@@ -126,7 +125,7 @@ const AppSideBar = () => {
                     <div>{t(item?.name)}</div>
                   </div>
                 </Link>
-              )}
+              {/* )} */}
             </>
           ))}
         </div>

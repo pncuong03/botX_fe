@@ -52,8 +52,6 @@ const Service = () => {
       key: TYPE_TAB_SERVICE.FAVOURITE,
     },
   ];
-
-  console.log(listTabs);
   
   const onBuy = (data: DataService) => {
     if (!md) {
