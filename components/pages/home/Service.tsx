@@ -32,7 +32,7 @@ const Service = () => {
     if (listServicesData?.services) {
       setService(listServicesData?.services[0]);
     }
-  }, [listServicesData]);
+  }, [listServicesData])
 
   const debouncedSearch = useRef(
     debounce((value) => {
@@ -52,6 +52,9 @@ const Service = () => {
       key: TYPE_TAB_SERVICE.FAVOURITE,
     },
   ];
+
+  console.log(listTabs);
+  
   const onBuy = (data: DataService) => {
     if (!md) {
       return dispatch(
@@ -89,6 +92,7 @@ const Service = () => {
                     key={k}
                     onClick={() =>
                       setParams((prev) => ({ ...prev, type: item?.key }))
+                      
                     }
                   >
                     <img src={item?.logo} alt="all icon" />

@@ -12,6 +12,8 @@ type Props = {
 
 const Information = ({ isEdit = false }: Props) => {
   const user = useAppSelector(selectUserInfo.getUser);
+  console.log(user);
+  
   const { t } = useTranslation();
 
   const {
@@ -25,6 +27,7 @@ const Information = ({ isEdit = false }: Props) => {
     avatarUrl,
   } = user || {};
 
+  
   const dataInfo = [
     {
       img: "/images/balance.png",

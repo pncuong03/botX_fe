@@ -23,6 +23,8 @@ const AppSideBar = () => {
 
   const { username, email, phoneNumber, avatarUrl, balanceSys } = user || {};
 
+  console.log(email);
+  
   function getItem(
     label: React.ReactNode,
     key?: React.Key | null,
@@ -69,6 +71,7 @@ const AppSideBar = () => {
     }
   }, [id]);
 
+    
   return (
     <div className="app-sidebar">
       <div>

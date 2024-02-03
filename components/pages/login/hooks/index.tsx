@@ -35,7 +35,7 @@ const useLoginHook = () => {
         const data = await listServices.loginGoogle({
           tokenIdOAuth: response?.access_token,
         });
-
+        dispatch(handleSetUser(data))
         dispatch(handleSetToken(data?.accessToken));
         router.push(APP_URL.DASHBOARD);
         showMessage(typeOfMessage.SUCCESS, t("home.loginSuccess"));

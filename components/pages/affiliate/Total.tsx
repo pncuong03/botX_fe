@@ -14,7 +14,7 @@ const Total = ({ affiliateUser, params, getWithdrawn }: any) => {
 
   const [modalVisible, setModalVisible] = useState(false);
   const user = useAppSelector(selectUserInfo.getUser);
-
+  
   const { refId } = user || {};
 
   const handleWithdrawButtonClick = () => {

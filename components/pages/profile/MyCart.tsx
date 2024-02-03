@@ -183,7 +183,7 @@ const MyCart: React.FC = () => {
     router.push(APP_URL.CHECKOUT);
   };
 
-  console.log("listCartData", listCartData);
+  // console.log("listCartData", listCartData);
 
   return (
     <div className="my-cart">
