@@ -74,7 +74,7 @@ const HeaderApp = ({ title }: Props) => {
 
   const Items = [
     {
-      logo: "/svg/shopping-cart.svg",
+      logo: "/svg/shopping-cartt.svg",
       key: TYPE_DRAWER.CART,
       count: listCartData?.length,
     },

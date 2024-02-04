@@ -35,7 +35,7 @@ export const getMenuItems = (categories:any)=>{
     {
       name: "home.home",
       url: APP_URL.DASHBOARD,
-      icon: "/svg/service.svg",
+      icon: "/svg/home.svg",
     },
     {
       name: "home.service",
@@ -51,12 +51,12 @@ export const getMenuItems = (categories:any)=>{
     {
       name: "home.affiliate",
       url: APP_URL.AFFILICATE,
-      icon: "/svg/payment.svg",
+      icon: "/svg/logo-affiliate.svg",
     },
     {
       name: "home.orderHistory",
       url: APP_URL.PROFILE,
-      icon: "/svg/faq.svg",
+      icon: "/svg/shopping-cart.svg",
     },
     {
       name: "home.faq",
@@ -66,7 +66,7 @@ export const getMenuItems = (categories:any)=>{
     {
       name: "home.profile",
       url: APP_URL.PROFILE_EDIT,
-      icon: "/svg/faq.svg",
+      icon: "/svg/frame.svg",
     },
   ];
 }

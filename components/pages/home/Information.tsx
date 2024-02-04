@@ -49,7 +49,7 @@ const Information = ({ isEdit = false }: Props) => {
   return (
     <div className="home">
       <Row gutter={[20, 20]}>
-        <Col xs={24} sm={24} md={16} className="col-info">
+        <Col xs={24} sm={24} md={12} className="col-info">
           <div className="home__info">
             <div className="home__user">
               <img src={avatarUrl || "/images/avatar-default.jpg"} alt="" />
@@ -97,7 +97,7 @@ const Information = ({ isEdit = false }: Props) => {
             </Row>
           </div>
         </Col>
-        <Col xs={24} sm={24} md={8} className="section-affilicate">
+          <Col xs={24} sm={24} md={8} className="section-affilicate">
           <div className="affilicate">
             <div className="main">
               <div className="code">Affiliate</div>
