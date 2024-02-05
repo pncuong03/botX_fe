@@ -48,7 +48,7 @@ const Information = ({ isEdit = false }: Props) => {
 
   return (
     <div className="home">
-      <Row gutter={[20, 20]}>
+      <Row gutter={[20, 20]} className="row-home">
         <Col xs={24} sm={24} md={12} className="col-info">
           <div className="home__info">
             <div className="home__user">
@@ -63,7 +63,7 @@ const Information = ({ isEdit = false }: Props) => {
                   )}
                 </div>
                 <div className="home__user-email">{email}</div>
-                <div className="code-ref">
+                {/* <div className="code-ref">
                   <div>
                     {t("home.codeRef")}: <span>{refId}</span>
                   </div>
@@ -73,7 +73,7 @@ const Information = ({ isEdit = false }: Props) => {
                     className="icon-copy"
                     onClick={(e) => handleCopyInClipboard(e, refId)}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
             <Row gutter={[20, 20]}>
@@ -100,7 +100,7 @@ const Information = ({ isEdit = false }: Props) => {
           <Col xs={24} sm={24} md={8} className="section-affilicate">
           <div className="affilicate">
             <div className="main">
-              <div className="code">Affiliate</div>
+              <div className="code">{t("home.affiliate")}</div>
               <div className="copy">
                 {refId}
                 <img

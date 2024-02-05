@@ -1,13 +1,13 @@
 .page-profile {
   .section-affilicate {
-    display: none;
-    max-width: 0;
+    // display: flex;
+    max-width: 30%;
   }
   .home__info {
     flex-direction: row;
     justify-content: space-between;
     .ant-row {
-      width: 70%;
+      width: 100%;
     }
   }
   .home__user {
@@ -18,8 +18,8 @@
     border-radius: 39px;
   }
   .col-info {
-    width: 100%;
-    max-width: 100%;
+    // width: 100%;
+    max-width: 70%;
     flex: 100%;
   }
   .active {
@@ -178,6 +178,10 @@
         margin-top: 20px;
       }
     }
+    // .section-affilicate {
+    //   flex-direction: column;
+      
+    // }
     .service {
       padding: 14px;
     }
