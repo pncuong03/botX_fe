@@ -34,7 +34,7 @@ const Total = ({ affiliateUser, params, getWithdrawn }: any) => {
     {
       img: "/images/number.png",
       name: t("home.payMember"),
-      value: `$ ${Number(numberMember).toLocaleString()}`,
+      value: `${Number(numberMember).toLocaleString()}`,
     },
     {
       img: "/images/money.png",
