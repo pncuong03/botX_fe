@@ -675,12 +675,23 @@
   .title-mobile {
     display: block;
   }
+
   .home {
+    .row-home{
+      flex-direction: column;
+      width: 150%;
+      .affilicate{
+        width: 250%;
+      }
+    }
+    
     .info-user {
       height: 124px;
       background-position: center;
       border-radius: 30px;
+
     }
+    
     &__user {
       img {
         height: 70px;
