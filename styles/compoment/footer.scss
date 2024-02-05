@@ -42,6 +42,17 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    color: $color_prink_emo;
+    font-size: 16px;
+    font-weight: 600;
+    
+    .left {
+      display: flex;
+      gap: 30px;
+    }
+    .right{
+      color: $color_prink_emo;
+    }
   }
   @media only screen and (max-width: $breakpoint_tablet_max) {
     .privaci {

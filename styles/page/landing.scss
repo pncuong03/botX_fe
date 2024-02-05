@@ -108,6 +108,7 @@
   margin: auto;
   padding: 10px;
   margin-top: 100px;
+  
   .social {
     .title {
       font-size: 64px;
@@ -160,7 +161,7 @@
       font-size: 16px;
       color: $color_prink_emo;
       text-align: center;
-
+      font-weight: 600;
       @media screen and (max-width: $breakpoint_tablet_max) {
         font-size: 14px;
         margin-top: 20px;
@@ -169,7 +170,10 @@
 
     .liWith {
       display: flex;
+      font-size: 16px;
+      color: $color_prink_emo;
       justify-content: space-between;
+      font-weight: 600;
       @media screen and (max-width: $breakpoint_tablet_max) {
         margin-top: 2rem;
         display: flex;
@@ -182,7 +186,6 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        color: #797d85;
 
         @media screen and (max-width: $breakpoint_desktop_max) {
           flex-direction: row;
@@ -301,7 +304,7 @@
         }
         .pbi {
           font-size: 16px;
-          color: #797d85;
+          color: $color_prink_emo;
         }
         .number {
           background-image: url("/svg/number.svg");
@@ -365,7 +368,7 @@
           }
           .pbi {
             font-size: 16px;
-            color: #797d85;
+            color: $color_prink_emo;
           }
           .number {
             background-image: url("/svg/number.svg");
@@ -428,7 +431,7 @@
           }
           .pbi {
             font-size: 14px;
-            color: #797d85;
+            color: $color_prink_emo;
           }
           .number {
             background-image: url("/svg/number.svg");

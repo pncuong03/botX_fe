@@ -47,11 +47,12 @@ const Footter: React.FC = () => {
       </div>
       <div className="privaci">
         <div className="left">
-          <img src="/images/text.png" alt="" />
+          <p>Terms of Use</p>
+          <p>Privacy Policy</p>
         </div>
-        <div className="right">
-          <img src="/images/textt.png" alt="" />
-        </div>
+        <a href="https://ttkstudio.com/" className="right">
+        © Copyright 2023-2024 by TTK Studio
+        </a>
       </div>
     </div>
   );
