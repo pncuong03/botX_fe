@@ -9,38 +9,38 @@ const Faq = () => {
     {
       header: t("home.whatsXs"),
       content: t("home.xsShop"),
-      // img: "/images/whatX.png",
+      img: "/images/What is XFarm.shop.png",
     },
     {
       header: t("home.howPurchase"),
       content: t("home.Topay"),
-      // img: "/images/how-buy.png",
+      img: "/images/How to purchase a product.png",
     },
     {
       header: t("home.whatIs"),
       content: t("home.haveSeen"),
-      // img: "/images/wrong.png",
+      img: "/images/What_is_the_process_to_recover_the_money_if_I_transferred_it_wrongly.png",
     },
     {
       header: t("home.howRe"),
-      // img: "/images/how-recharge.png",
+      img: "/images/How to recharge.png",
       content: t("home.toTop"),
     },
 
     {
       header: t("home.iMade"),
       content: t("home.ocfcEnter"),
-      // img: "/images/money-x.png",
+      img: "/images/I made a deposit but the money didn't show up in my account.png",
     },
     {
       header: t("home.isCancel"),
       content: t("home.weDo"),
-      // img: "/images/cancel-order.png",
+      img: "/images/Is it possible to cancel my order.png",
     },
     {
       header: t("home.warrantly"),
       content: t("home.inCase"),
-      // img: "/images/policy.png",
+      img: "/images/What is the warranty policy.png",
     },
   ];
 
@@ -56,7 +56,7 @@ const Faq = () => {
           key={String(k)}
         >
           <p dangerouslySetInnerHTML={{ __html: data.content }} />
-          {/* <img className="img-faq" src={data?.img} alt="" /> */}
+          <img className="img-faq" src={data?.img} alt="" />
         </Panel>
       ))}
     </Collapse>
