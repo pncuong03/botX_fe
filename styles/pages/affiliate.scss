@@ -1,11 +1,9 @@
 .page-affiliate {
   display: flex;
   flex-direction: column;
-
   .total {
     border-radius: 20px;
     margin-top: 20px;
-
     &__info {
       background: $color_white;
       height: 100%;

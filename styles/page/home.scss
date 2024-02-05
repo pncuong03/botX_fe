@@ -1,19 +1,22 @@
 .home {
   border-radius: 20px;
   margin-top: 20px;
+
   &__info {
     background: $color_white;
     height: 100%;
     border-radius: 32px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
     padding: 20px;
+
   }
   &__user {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     img {
       width: 98px;
       height: 98px;
@@ -545,7 +548,6 @@
   }
   .section-affilicate {
     border-radius: 32px;
-
     padding: 20px;
     background-image: url("/images/affilicate-banner.png");
     border: 1px solid $color_dark;
